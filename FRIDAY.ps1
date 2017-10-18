@@ -240,9 +240,5 @@ If ($PromptForActivateAdminToolsAnswer -eq 6) {
 } else { 
     Write-Host "Hope this helped!"
 }
-
-
-
-
-
-
+Write-Host "Setting Execution Policy for Powershell to RESTRICTED."
+244 Set-ExecutionPolicy Restricted
